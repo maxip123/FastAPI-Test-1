@@ -1,0 +1,30 @@
+# Entorno virtual (equivalente a node_modules en Node.js)
+venv/
+env/
+.env/
+.venv/
+
+# Variables de entorno — NUNCA subir al repo
+.env
+.env.local
+.env.production
+
+# Caché de Python (se generan solos al correr el proyecto)
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Base de datos local (si usas SQLite)
+*.db
+*.sqlite3
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
